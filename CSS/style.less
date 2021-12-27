@@ -4,3 +4,27 @@
     font-family: "Roboto", sans-serif;
 }
 
+main {
+    max-width: 1400px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+        'section1 section2'
+        'section1 section3';
+    
+}
+
+.left {
+    grid-area: section1;
+}
+
+.work {
+    grid-area: section2;
+}
+
+.education {
+    grid-area: section3;
+}
