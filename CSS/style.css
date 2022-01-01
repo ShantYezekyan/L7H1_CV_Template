@@ -70,13 +70,13 @@ h3 {
   font-size: 18px;
   color: #757575;
 }
-.header_format {
+.left-header_format {
   margin: 18px 0;
 }
-.header_format h3 {
+.left-header_format h3 {
   display: inline-block;
 }
-.header_format i {
+.left-header_format i {
   font-size: 20px;
 }
 .skills p,
@@ -127,4 +127,40 @@ h3 {
 }
 .languageBar .fill25 {
   width: 25%;
+}
+h2 {
+  color: #757575;
+  font-size: 30px;
+  font-weight: 100;
+}
+.right-header_format {
+  margin: 10px 0;
+  padding: 16px 0;
+}
+.right-header_format h2 {
+  display: inline-block;
+}
+.right-header_format i {
+  font-size: 30px;
+}
+.work_content {
+  padding: 0 16px;
+}
+.work_content h3 {
+  margin: 10px 0;
+}
+.work_content p {
+  margin: 15px 0;
+}
+.work_history_timePeriod {
+  color: #009688;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.work_history_timePeriod span {
+  font-size: 16px;
+  padding: 2px 8px;
+  background-color: #009688;
+  color: white!important;
+  border-radius: 5px;
 }
