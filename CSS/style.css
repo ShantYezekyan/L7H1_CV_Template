@@ -143,21 +143,25 @@ h2 {
 .right-header_format i {
   font-size: 30px;
 }
-.work_content {
+.work_content,
+.education_content {
+  display: block;
   padding: 0 16px;
 }
-.work_content h3 {
+.work_content h3,
+.education_content h3 {
   margin: 10px 0;
 }
-.work_content p {
+.work_content p,
+.education_content p {
   margin: 15px 0;
 }
-.work_history_timePeriod {
+.history_timePeriod {
   color: #009688;
   font-size: 16px;
   margin: 10px 0;
 }
-.work_history_timePeriod span {
+.history_timePeriod span {
   font-size: 16px;
   padding: 2px 8px;
   background-color: #009688;
