@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  font-size: 15px;
 }
 main {
   max-width: 1400px;
@@ -20,4 +21,110 @@ main {
 }
 .education {
   grid-area: section3;
+}
+.container {
+  padding: 0 16px;
+  background-color: white;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.img_container {
+  display: block;
+  position: relative;
+}
+.img_container img {
+  width: 100%;
+}
+.img_container .Jane {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 30px;
+  padding: 16px;
+}
+.left_content {
+  display: block;
+}
+i {
+  color: #009688;
+  display: inline-block;
+  text-align: center;
+  margin-right: 16px;
+}
+.personal_info {
+  display: block;
+}
+.personal_info p {
+  display: block;
+  margin: 15px 0;
+  color: #757575;
+}
+.personal_info p i {
+  width: 18px;
+  font-size: 18px;
+}
+h3 {
+  font-size: 18px;
+  color: #757575;
+}
+.header_format {
+  margin: 18px 0;
+}
+.header_format h3 {
+  display: inline-block;
+}
+.header_format i {
+  font-size: 20px;
+}
+.skills p,
+.languages p {
+  margin: 15px 0;
+  color: #757575;
+  font-weight: 400;
+}
+.skillBar {
+  display: block;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+}
+.skillBar .skillBar_filled {
+  display: block;
+  background-color: #009688;
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 4px 0px;
+}
+.skillBar .fill90 {
+  width: 90%;
+}
+.skillBar .fill80 {
+  width: 80%;
+}
+.skillBar .fill75 {
+  width: 75%;
+}
+.skillBar .fill50 {
+  width: 50%;
+}
+.languageBar {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+}
+.languageBar .languageBar_filled {
+  height: 24px;
+  background-color: #009688;
+  border-radius: 16px;
+}
+.languageBar .fill50 {
+  width: 50%;
+}
+.languageBar .fill25 {
+  width: 25%;
 }
