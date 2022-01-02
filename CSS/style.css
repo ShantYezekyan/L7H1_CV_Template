@@ -198,3 +198,9 @@ footer i:hover {
 footer a {
   color: white;
 }
+@media only screen and (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'section1' 'section2' 'section3';
+  }
+}
